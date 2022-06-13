@@ -1,6 +1,57 @@
+/* Fonts */
+.lato {
+    font-family: 'Lato', sans-serif;
+    
+    
+    
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.source-sans {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.quicksand {
+    font-family: 'Quicksand', sans-serif;
+}
+
 @media only screen and (min-width: 360px) {
     body {
         margin: 0;
+        max-width: 100%;
+    }
+
+    .head {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .burger {
+        display: block;
+        position: absolute;
+        width: 35px;
+        height: 35px;
+        cursor: pointer;
+        appearance: none;
+        outline: none;
+        background: none;
+        border: none;
+        margin: 5px 15px;
+    }
+
+    .burger .bar, .burger:after, burger:before {
+        position: relative;
+        height: 5px;
+        width: 100%;
+        background-color: #ffffff; 
+        content: '';
+        display: block;
+        margin: 6px;
+        transition: 0.4s;
+         
     }
 
     .nav {
@@ -37,13 +88,26 @@
         background-color: rgba(0,0,0,.18);
     }
 
+    .welcome {
+        font-size: 36px;
+        display: flex;
+        position: absolute;
+        color: #ffffff;
+        width: 100%;
+        justify-content: center;
+        font-family: cursive;
+        top: 35%;
+        text-align: center
+        /* left: 50px; */
+    }
+
     .fig {
         margin-block-start: 0;
         margin-block-end: 0;
         margin-inline-start: 0;
         margin-inline-end: 0;
         position: absolute;
-        max-height: 350px;
+        /* max-height: 350px; */
         width: 100%;
         
     }
@@ -53,9 +117,38 @@
 
 
 
-@media only screen and (min-width: 760px) {
+@media only screen and (min-width: 770px) {
     body {
         margin: 0;
+    }
+
+    .head {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .burger {
+        display: block;
+        width: 35px;
+        height: 35px;
+        cursor: pointer;
+        appearance: none;
+        outline: none;
+        background: none;
+        border: none;
+        margin: 5px 15px;
+    }
+
+    .burger .bar, .burger:after, burger:before {
+        position: relative;
+        height: 5px;
+        width: 100%;
+        background-color: #ffffff; 
+        content: '';
+        display: block;
+        margin: 6px;
+        transition: 0.4s;
+         
     }
 
     .nav {
@@ -90,6 +183,18 @@
         background-color: rgba(0,0,0,.18);
     }
 
+    .welcome {
+        font-size: 50px;
+        font-family: cursive;
+        position: absolute;
+        color: #ffffff;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        top: 35%;
+        text-align: center;
+    }
+
     .fig {
         margin-block-start: 0;
         margin-block-end: 0;
@@ -113,6 +218,10 @@
 
     body {
         margin: 0;
+    }
+
+    .head {
+        display: flex;
     }
 
     .nav {
@@ -145,6 +254,16 @@
         max-height: 700px;
         object-fit: cover;
         background-color: rgba(0,0,0,.18);
+    }
+
+    .welcome {
+        font-size: 56px;
+        font-family: cursive;
+        position: absolute;
+        color: #ffffff;
+        display: flex;
+        width: 100%;
+        justify-content: center;
     }
 
     .fig {
