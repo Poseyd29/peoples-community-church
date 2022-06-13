@@ -13,8 +13,16 @@
         display: flex;
         width: 100%;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
+        list-style: none;
+        padding-inline-start: 0px;
+        
+    }
+
+    .nav-link {
+        text-decoration: none;
+        color: #ffffff;
     }
 
     .home-logo {
@@ -58,8 +66,16 @@
         display: flex;
         width: 100%;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
+        list-style: none;
+        padding-inline-start: 0px;
+    }
+
+    .nav-link {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 20px;
     }
 
     .home-logo {
@@ -107,8 +123,16 @@
         display: flex;
         width: 100%;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
+        list-style: none;
+        padding-inline-start: 0px;
+    }
+
+    .nav-link {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 22px;
     }
 
     .home-logo {
