@@ -79,6 +79,7 @@
     .home-logo {
         max-width: 75px;
         max-height: 75px;
+        visibility: hidden;
     }
 
     .praise-img {
@@ -174,6 +175,7 @@
     .home-logo {
         max-width: 125px;
         max-height: 125px;
+        visibility: hidden;
     }
 
     .praise-img {
@@ -247,6 +249,7 @@
     .home-logo {
         max-width: 130px;
         max-height: 130px;
+        visibility: hidden;
     }
 
     .praise-img {
