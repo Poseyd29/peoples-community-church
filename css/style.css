@@ -160,6 +160,8 @@
 
     .nav {
         position: absolute;
+        display: flex;
+        width: 100%;
     }
 
     .nav-list {
@@ -234,6 +236,8 @@
 
     .nav {
         position: absolute;
+        display: flex;
+        width: 100%;
     }
 
     .nav-list {
