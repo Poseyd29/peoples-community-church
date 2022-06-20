@@ -1,3 +1,19 @@
+/* utility */
+.flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.font
+
+
 /* quick margins or padding */
 .padding-top-one {
     padding-top: 1em;
@@ -13,6 +29,11 @@
 
 .margin-top-two {
     margin-top: 2em;
+}
+
+.margin-h3 {
+    margin-top: 0;
+    margin-bottom: 0.5em;
 }
 
 
@@ -127,16 +148,18 @@ body {
 
     .highlights-section {
         padding-top: 2em;
+        flex-direction: column;
     }
 
     .highlight {
         padding: 1em 0 1em 0;
     }
 
+
     .highlight-img {
         width: 100%;
         max-height: 225px;
-        padding: 1em 0 1em 0;
+        /* padding: 1em 0 1em 0; */
         
     }
 
@@ -277,9 +300,44 @@ body {
         
     }
 
+    .main-content-wrap {
+        width: 75%;
+        line-height: 1.5
+    }
+
     .basic-info-container {
+        display: flex;
         width: 100%;
-        padding: 20px 15px 0 15px
+        align-items: center;
+        flex-direction: column;
+        padding-top: 65px;
+        
+    }
+
+    .highlight-img-container {
+        padding: 1em;
+    }
+
+    .highlight-text-container {
+        padding: 1em;
+    } 
+
+    .highlights-section {
+        padding-top: 0em;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .highlight {
+        padding: 1em 0 1em 0;
+        width: 25%;
+    }
+
+    .highlight-img {
+        width: 100%;
+        max-height: 165px;
+        /* padding: 1em 0 1em 0; */
+        
     }
 
 }
@@ -358,12 +416,20 @@ body {
 
     .basic-info-container {
         width: 100%;
-        padding: 20px 15px 0 15px
+        padding-top: 65px;
     }
+
+    /* .highlight-img-container {
+        padding: 1em 0 1em 0;
+    }
+
+    .highlight-text-container {
+        padding: 1em 0 1em 0;
+    }  */
 
 }
 
-
+/* just give the learn more about gateway the same padding you have for the highlights */
 
 
 
