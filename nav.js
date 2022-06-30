@@ -11,3 +11,4 @@ navToggle.addEventListener('click', () => {
         navToggle.setAttribute('aria-expanded', false)
     }
 })
+
