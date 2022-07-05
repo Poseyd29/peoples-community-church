@@ -88,15 +88,27 @@
     color: #366;
 }
 
+
+/* Welcome Font Size */
 @media (max-width: 649px) {
     .welcome-tablet {
         font-size: 32px !important;
+    }
+
+    /* h1 for mobile. pretend it says mobile and not desk */
+    .h1-desk-beliefs {
+        font-size: 42px !important;
     }
 }
 
 @media (max-width: 1199px) {
     .welcome-tablet {
         font-size: 40px;
+    }
+
+    /* h1 for mobile. pretend it says mobile and not desk */
+    .h1-desk-beliefs {
+        font-size: 58px;
     }
 }
 
@@ -109,7 +121,7 @@ body {
 
  
 
-
+/* Mobile nav burger styling + mobile styling */
 @media (max-width: 630px) {
     .mobile-nav-toggle {
         display: block;
@@ -162,6 +174,7 @@ body {
     .nav-link {
         text-decoration: none;
         color: #ffffff;
+        font-size: 20px !important;
     }
 
     a>li:link {
@@ -315,7 +328,7 @@ body {
     .nav-link {
         text-decoration: none;
         color: #ffffff;
-        font-size: 20px;
+        font-size: 28px;
     }
 
     a>li:link {
@@ -474,6 +487,8 @@ body {
         margin-inline-start: 0px;
         margin-inline-end: 0px;
     }
+
+    
 
     .belief-h2 {
         margin-block-start: 1em;
@@ -683,6 +698,10 @@ body {
         margin-block-end: 1em;
         margin-inline-start: 0px;
         margin-inline-end: 0px;
+    }
+
+    .h1-desk-beliefs {
+        font-size: 72px;
     }
 
     .belief-h2 {
