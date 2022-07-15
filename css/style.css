@@ -82,6 +82,10 @@
 }
 
 /* colors */
+
+.blue {
+    color: #165f99
+}
   
 
 .green {
@@ -138,8 +142,8 @@ body {
         width: 1.4rem;
         aspect-ratio: 1;
         z-index: 9999;
-        top: 1em;
-        right: 1.5em;
+        top: 1.2em;
+        right: 2em;
         border-width: 0px;
         border-style: outset;
         border-color: buttonborder;
@@ -278,8 +282,8 @@ body {
         width: 1.4rem;
         aspect-ratio: 1;
         z-index: 9999;
-        top: 1em;
-        right: 1.5em;
+        top: 1.2em;
+        right: 2em;
         border-width: 0px;
         border-style: outset;
         border-color: buttonborder;
@@ -346,19 +350,19 @@ body {
     } */
 
     a>li:hover {
-       color: #9acccb;
+       color: #238ed8;
     }
 
     a>li:active {
-       color: #9acccb;
+       color: #238ed8;
     }
 
     div.highlight-text-container > a:hover {
-        color: #9acccb;
+        color: #238ed8;
     }
 
     div.highlight-text-container > a:active {
-        color: #9acccb;
+        color: #238ed8;
     }
 
     .home-logo {
@@ -582,19 +586,19 @@ body {
     } */
 
     a>li:hover {
-       color: #9acccb;
+       color: #238ed8;
     }
 
     a>li:active {
-       color: #9acccb;
+       color: #238ed8;
     }
 
     div.highlight-text-container > a:hover {
-        color: #9acccb;
+        color: #238ed8;
     }
 
     div.highlight-text-container > a:active {
-        color: #9acccb;
+        color: #238ed8;
     }
 
     .home-logo {
