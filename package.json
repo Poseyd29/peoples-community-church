@@ -1,0 +1,27 @@
+{
+  "name": "peoples-community-church",
+  "version": "1.0.0",
+  "description": "newsletter using mailchimp",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Poseyd29/peoples-community-church.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Poseyd29/peoples-community-church/issues"
+  },
+  "homepage": "https://github.com/Poseyd29/peoples-community-church#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
