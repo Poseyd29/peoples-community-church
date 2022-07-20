@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Poseyd29/peoples-community-church#readme",
   "dependencies": {
+    "body-parser": "^1.20.0",
     "express": "^4.18.1",
     "request": "^2.88.2"
   },
