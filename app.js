@@ -15,13 +15,13 @@ app.use(bodyParser.urlencoded({ extended: true }))
 app.use(express.static(path.join(__dirname, 'public')))
 
 // Signup Route
-app.post('/signup', (req, res) => {
-    const { firstName, lastName, email } = req.body;
+app.post('/newsletter', (req, res) => {
+    const { email } = req.body;
     //make sure fields are filled
-    if (!firstName || !lastName || !email) {
-        res.redirect('/fail.html')
+    if (!email) {
         return;
     }
+
 
     // Construct Request Data
     const data = {
@@ -29,13 +29,14 @@ app.post('/signup', (req, res) => {
             {
                 email_address: email,
                 status: 'subscribed',
-                merge_fields: {
-                    FNAME: firstName,
-                    LNAME: lastName
-                }
             }
         ]
     }
+
+    console.log(req.body)
+    console.log(email)
+    console.log(data)
+
 
     const postData = JSON.stringify(data)
 
@@ -50,12 +51,20 @@ app.post('/signup', (req, res) => {
 
     request(options, (err, response, body) => {
         if (err) {
-            res.redirect('/fail.html')
+            // res.redirect('/ fail.html')
+            // console.log(options)
+            return
         } else {
             if (response.statusCode === 200) {
-                res.redirect('/success.html')
+                // res.redirect('/success.html')
+                console.log('successful post')
+                console.log(response.statusCode)
+                console.log(options)
             } else {
-                res.redirect('/fail.html')
+                // res.redirect('/fail.html')
+                console.log('failed post')
+                console.log(response.statusCode)
+                console.log(options)
             }
         }
     });

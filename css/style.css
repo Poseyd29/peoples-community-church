@@ -257,6 +257,19 @@ body {
 
 
     /*Newsletter */
+    .newsletter {
+        margin-bottom: 2em;
+        
+    }
+
+    .email-field {
+      padding: 4px 0px;  
+    }
+
+    .submit-email {
+      padding: 4px 4px;    
+    }
+
     .subscribe {
         display: flex;
         flex-direction: column;
