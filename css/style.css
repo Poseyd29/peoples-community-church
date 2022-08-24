@@ -256,7 +256,7 @@ body {
 
     .index-img {
         width: 100%;
-        height: 700px;
+        height: 400px;
         object-fit: cover;
         background: url('/img/kids.jpg');
         background-repeat: no-repeat;
@@ -714,7 +714,7 @@ body {
     }
     .calendar-img {
         width: 100%;
-        height: 700px;
+        height: 210px;
         object-fit: cover;
         background: url('/img/kids.jpg');
         background-repeat: no-repeat;
