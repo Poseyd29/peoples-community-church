@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@500;600&family=Lato:wght@300;400;700&family=Playfair+Display:wght@600;800&family=Quicksand:wght@400;600&family=Roboto:wght@100;300;400;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="/css/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./style.css" />
     <script src="main.js"></script>
     <script src="nav.js" defer></script>
 </head>
@@ -19,8 +19,11 @@
 <body>
     <header class="head">
         <figure class="fig">
-            <img class="praise-img" src="/img/praise.jpeg" alt="">
-            <h1 class="welcome h1-desk-beliefs">Ministries</h1>
+            <div class="ministries-img">
+                <!-- <img class="praise-img" src="/img/kids.jpg" alt=""> -->
+                <div class="overlay"></div>
+                <h1 class="roboto welcome h1-desk-beliefs">Ministries</h1>
+            </div>
         </figure>
 
         <button class="mobile-nav-toggle" aria-controls="nav-list" aria-expanded="false">
@@ -48,7 +51,7 @@
                     <li>Give</li>
                 </a>
                 <a class="nav-link" href="#">
-                    <li>Calandar</li>
+                    <li>Calendar</li>
                 </a>
                 <a class="nav-link" href="scholarships.html">
                     <li>Scholarships</li>
@@ -148,8 +151,8 @@
                 </section>
                 <section class="home-updates">
                     <h3 class="footer-header-text fnt-one-half">Join Our Newsletter</h3>
-                    <form class="newsletter" action="/newsletter" method="POST">
-                        <input class="email-field" type="text" name="newsletter" placeholder="Enter Email">
+                    <form class="newsletter" action="/ministries.html" method="POST">
+                        <input class="email-field" type="email" name="email" placeholder="Enter Email">
                         <button class="submit-email" type="submit">Submit</button>
                     </form>
                 </section>
