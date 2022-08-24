@@ -264,7 +264,7 @@ body {
     }
     .about-img {
         width: 100%;
-        height: 700px;
+        height: 400px;
         object-fit: cover;
         background: url('/img/kids.jpg');
         background-repeat: no-repeat;
@@ -272,7 +272,7 @@ body {
     }
     .ministries-img {
         width: 100%;
-        height: 700px;
+        height: 400px;
         object-fit: cover;
         background: url('/img/kids.jpg');
         background-repeat: no-repeat;
@@ -280,7 +280,7 @@ body {
     }
     .pantry-img {
         width: 100%;
-        height: 700px;
+        height: 400px;
         object-fit: cover;
         background: url('/img/kids.jpg');
         background-repeat: no-repeat;
@@ -288,7 +288,7 @@ body {
     }
     .calendar-img {
         width: 100%;
-        height: 700px;
+        height: 400px;
         object-fit: cover;
         background: url('/img/kids.jpg');
         background-repeat: no-repeat;
@@ -296,7 +296,7 @@ body {
     }
     .scholarships-img {
         width: 100%;
-        height: 700px;
+        height: 400px;
         object-fit: cover;
         background: url('/img/kids.jpg');
         background-repeat: no-repeat;
@@ -304,7 +304,7 @@ body {
     }
     .beliefs-img {
         width: 100%;
-        height: 700px;
+        height: 400px;
         object-fit: cover;
         background: url('/img/kids.jpg');
         background-repeat: no-repeat;
@@ -680,9 +680,75 @@ body {
         width: 345px;
     }
 
+    .index-img {
+        width: 100%;
+        height: 210px;
+        object-fit: cover;
+        background: url('/img/kids.jpg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .about-img {
+        width: 100%;
+        height: 210px;
+        object-fit: cover;
+        background: url('/img/kids.jpg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .ministries-img {
+        width: 100%;
+        height: 210px;
+        object-fit: cover;
+        background: url('/img/kids.jpg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .pantry-img {
+        width: 100%;
+        height: 210px;
+        object-fit: cover;
+        background: url('/img/childrenchristmas.jpg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .calendar-img {
+        width: 100%;
+        height: 700px;
+        object-fit: cover;
+        background: url('/img/kids.jpg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .scholarships-img {
+        width: 100%;
+        height: 210px;
+        object-fit: cover;
+        background: url('/img/kids.jpg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .beliefs-img {
+        width: 100%;
+        height: 210px;
+        object-fit: cover;
+        background: url('/img/kids.jpg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+
+    .overlay {
+        width: 100%;
+        height: 100%;
+        background: #000;
+        opacity: .45;
+    }
+
     .dozier-img {
         width: 100%;
     }
+
 
 }
 
